@@ -1,0 +1,13 @@
+.grid-space {
+    background-color: lightgray;
+    transition: 0.5s background-color;
+    border-radius: 6px;
+    display: flex;
+    user-select: none;
+
+    color: white;
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}

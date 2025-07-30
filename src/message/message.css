@@ -1,0 +1,20 @@
+.message {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    background-color: wheat;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+    height: 24px;
+    font-size: 14px;
+
+    transform: translate(0, -25px);
+    transition: transform 0.33s;
+}
+
+.show-message {
+    transform: translate(0,0);
+}

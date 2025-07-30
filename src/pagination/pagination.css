@@ -1,0 +1,47 @@
+.pagination {
+    display: flex;
+    box-sizing: border-box;
+    align-items: space-between;
+    padding: 3px;
+    font-size: 13px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    z-index: 3;
+    user-select: none;
+}
+
+.pagination button {
+    appearance: none;
+    border: none;
+    padding: 0 3px;
+    background: none;
+    font: inherit;
+    transition: color 0.33s;
+}
+
+.pagination button:hover {
+    color: dodgerblue;
+}
+
+.pagination-list {
+    display: flex;
+    flex: 1;
+}
+
+.pagination-fill-l {
+    display: flex;
+    flex-direction: row-reverse;
+    flex: 1;
+}
+
+.pagination-fill-r {
+    display: flex;
+    flex: 1;
+}
+
+.pagination-current {
+    padding: 0 3px;
+    font-weight: 800;
+    color: dodgerblue;
+}
